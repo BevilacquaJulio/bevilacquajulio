@@ -1,4 +1,4 @@
-<img src="./header.svg" width="100%" style="border-radius: 20px;"/>
+<img src="./header-rounded.svg" width="100%" style="border-radius: 20px;"/>
 
 **`Desenvolvedor BackEnd/FrontEnd`**
 
