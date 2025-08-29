@@ -15,11 +15,9 @@
     </filter>
   </defs>
 
-  <!-- Fundo -->
-  <rect width="800" height="260" rx="20" fill="#0B132B" opacity="0.95"/>
+  <!-- 🔹 Fundo transparente (antes era um rect colorido) -->
 
-  <!-- Título -->
-
+  
   <!-- Linhas de conteúdo -->
   <g font-family="Consolas, monospace" font-size="16" fill="#F8FAFC">
     <!-- Linha 1 -->
