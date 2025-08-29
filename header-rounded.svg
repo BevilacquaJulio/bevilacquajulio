@@ -50,12 +50,9 @@
 
     <!-- Texto -->
     <text x="50%" y="48%" text-anchor="middle"
-          font-family="Poppins, Segoe UI, Roboto, Arial" font-size="28" fill="#F8FAFC">
+          font-family="Poppins, Segoe UI, Roboto, Arial" font-size="60" fill="#F8FAFC">
       Julio Cesar
     </text>
-    <text x="50%" y="68%" text-anchor="middle"
-          font-family="Poppins, Segoe UI, Roboto, Arial" font-size="13" fill="#E2E8F0" opacity="0.9">
-      Java • SQL • Full-Stack • CNJ • Power BI
-    </text>
+    
   </g>
 </svg>
