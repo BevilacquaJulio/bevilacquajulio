@@ -1,6 +1,6 @@
 <img src="./header-new.svg" width="100%"/>
 
-<img src="./about.svg"/>
+<img src="./sobre-mim.svg"/>
 
 ---
 
