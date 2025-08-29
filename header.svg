@@ -1,0 +1,52 @@
+<svg width="1200" height="220" viewBox="0 0 1200 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gw" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0B132B"/>
+      <stop offset="50%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#48D1CC"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Fundo -->
+  <rect width="1200" height="220" fill="#0B132B"/>
+
+  <!-- Wave 1 (lenta) -->
+  <path fill="url(#gw)" opacity="0.35"
+        d="M0,150 C300,120 550,170 850,140 C1000,130 1120,150 1200,145 L1200,220 L0,220 Z">
+    <animate attributeName="d" dur="14s" repeatCount="indefinite"
+      values="
+      M0,150 C300,120 550,170 850,140 C1000,130 1120,150 1200,145 L1200,220 L0,220 Z;
+      M0,150 C300,160 550,135 850,165 C1000,155 1120,140 1200,160 L1200,220 L0,220 Z;
+      M0,150 C300,120 550,170 850,140 C1000,130 1120,150 1200,145 L1200,220 L0,220 Z"/>
+  </path>
+
+  <!-- Wave 2 (média) -->
+  <path fill="url(#gw)" opacity="0.55"
+        d="M0,165 C250,140 600,180 900,155 C1050,150 1120,160 1200,158 L1200,220 L0,220 Z">
+    <animate attributeName="d" dur="10s" repeatCount="indefinite"
+      values="
+      M0,165 C250,140 600,180 900,155 C1050,150 1120,160 1200,158 L1200,220 L0,220 Z;
+      M0,165 C250,170 600,150 900,170 C1050,165 1120,150 1200,175 L1200,220 L0,220 Z;
+      M0,165 C250,140 600,180 900,155 C1050,150 1120,160 1200,158 L1200,220 L0,220 Z"/>
+  </path>
+
+  <!-- Wave 3 (rápida) -->
+  <path fill="url(#gw)" opacity="0.9"
+        d="M0,180 C320,170 620,195 920,180 C1070,176 1140,186 1200,182 L1200,220 L0,220 Z">
+    <animate attributeName="d" dur="7s" repeatCount="indefinite"
+      values="
+      M0,180 C320,170 620,195 920,180 C1070,176 1140,186 1200,182 L1200,220 L0,220 Z;
+      M0,180 C320,190 620,170 920,195 C1070,190 1140,178 1200,198 L1200,220 L0,220 Z;
+      M0,180 C320,170 620,195 920,180 C1070,176 1140,186 1200,182 L1200,220 L0,220 Z"/>
+  </path>
+
+  <!-- Texto -->
+  <text x="50%" y="48%" text-anchor="middle"
+        font-family="Poppins, Segoe UI, Roboto, Arial" font-size="28" fill="#F8FAFC">
+    Julio Cesar
+  </text>
+  <text x="50%" y="68%" text-anchor="middle"
+        font-family="Poppins, Segoe UI, Roboto, Arial" font-size="13" fill="#E2E8F0" opacity="0.9">
+    Java • SQL • Full-Stack • CNJ • Power BI
+  </text>
+</svg>
