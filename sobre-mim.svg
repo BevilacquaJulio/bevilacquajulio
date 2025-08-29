@@ -21,7 +21,7 @@
   <!-- Linhas de conteúdo -->
   <g font-family="Consolas, monospace" font-size="16" fill="#F8FAFC">
     <!-- Linha 1 -->
-    <text x="40" y="90" opacity="0">➤ Focado em <tspan fill="#38BDF8">Java</tspan>, <tspan fill="#38BDF8">SQL</tspan> e desenvolvimento full stack.
+    <text x="40" y="90" opacity="0">➤ Focado em desenvolvimento<tspan fill="#38BDF8">Java</tspan>, <tspan fill="#38BDF8">HTML, CSS Java Script e SQL</tspan>  .
       <animate attributeName="opacity" from="0" to="1" dur="1s" begin="0.8s" fill="freeze"/>
     </text>
     <!-- Linha 2 -->
@@ -36,10 +36,7 @@
     <text x="40" y="180" opacity="0">➤ Projeto de impacto: sistema QR Code que gerou <tspan fill="#22D3EE">+R$200 mil</tspan>.
       <animate attributeName="opacity" from="0" to="1" dur="1s" begin="2.3s" fill="freeze"/>
     </text>
-    <!-- Linha 5 -->
-    <text x="40" y="210" opacity="0">➤ Apoio ao <tspan fill="#38BDF8">CNJ</tspan>: gestão de processos e dashboards em Power BI.
-      <animate attributeName="opacity" from="0" to="1" dur="1s" begin="2.8s" fill="freeze"/>
-    </text>
+    
   </g>
 
   <!-- Bolhas decorativas -->
