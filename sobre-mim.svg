@@ -21,7 +21,7 @@
   <!-- Linhas de conteúdo -->
   <g font-family="Consolas, monospace" font-size="16" fill="#F8FAFC">
     <!-- Linha 1 -->
-    <text x="40" y="90" opacity="0">➤ Focado em desenvolvimento<tspan fill="#38BDF8">Java</tspan>, <tspan fill="#38BDF8">HTML, CSS Java Script e SQL</tspan>  .
+    <text x="40" y="90" opacity="0">➤ Focado em desenvolvimento <tspan fill="#38BDF8">Java</tspan>, <tspan fill="#38BDF8">HTML, CSS, JavaScript e SQL</tspan>  .
       <animate attributeName="opacity" from="0" to="1" dur="1s" begin="0.8s" fill="freeze"/>
     </text>
     <!-- Linha 2 -->
@@ -33,7 +33,7 @@
       <animate attributeName="opacity" from="0" to="1" dur="1s" begin="1.8s" fill="freeze"/>
     </text>
     <!-- Linha 4 -->
-    <text x="40" y="180" opacity="0">➤ Projeto de impacto: sistema QR Code que gerou <tspan fill="#22D3EE">+R$200 mil</tspan>.
+    <text x="40" y="180" opacity="0">➤ Projeto de impacto: Sistema consumo de cartão com QR Code que gerou <tspan fill="#22D3EE">+R$200 mil</tspan>.
       <animate attributeName="opacity" from="0" to="1" dur="1s" begin="2.3s" fill="freeze"/>
     </text>
     
