@@ -1,15 +1,6 @@
 <img src="./header-new.svg" width="100%"/>
 
-
-<span style="color: rgba(200, 0, 0, 0.72);">➤</span>  Desenvolvedor em início de carreira focado em Java, SQL e desenvolvimento full stack.
-
-<span style="color: rgba(200, 0, 0, 0.72);">➤</span> Experiência prática em backend, frontend, banco de dados e deploy em nuvem.
-
-<span style="color: rgba(200, 0, 0, 0.72);">➤</span> Utilizo IA (Cursor AI) para acelerar entregas e criar sistemas completos em prazos curtos.
-
-<span style="color: rgba(200, 0, 0, 0.72);">➤</span> Já desenvolvi projetos de impacto, incluindo um sistema de consumo via QR Code que movimentou +R$200 mil em um evento.
-
-<span style="color: rgba(200, 0, 0, 0.72);">➤</span> Atuo também no apoio ao sistema de justiça (CNJ), criando sistemas para gestão de processos e dashboards em Power BI.
+<img src="./about.svg"/>
 
 ---
 
