@@ -1,0 +1,56 @@
+<svg width="800" height="260" viewBox="0 0 800 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradiente para o título -->
+    <linearGradient id="gradTitle" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#48D1CC"/>
+    </linearGradient>
+    <!-- Glow leve -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Fundo -->
+  <rect width="800" height="260" rx="20" fill="#0B132B" opacity="0.95"/>
+
+  <!-- Título -->
+
+  <!-- Linhas de conteúdo -->
+  <g font-family="Consolas, monospace" font-size="16" fill="#F8FAFC">
+    <!-- Linha 1 -->
+    <text x="40" y="90" opacity="0">➤ Focado em <tspan fill="#38BDF8">Java</tspan>, <tspan fill="#38BDF8">SQL</tspan> e desenvolvimento full stack.
+      <animate attributeName="opacity" from="0" to="1" dur="1s" begin="0.8s" fill="freeze"/>
+    </text>
+    <!-- Linha 2 -->
+    <text x="40" y="120" opacity="0">➤ Experiência em <tspan fill="#48D1CC">backend</tspan>, <tspan fill="#48D1CC">frontend</tspan>, BD e deploy em nuvem.
+      <animate attributeName="opacity" from="0" to="1" dur="1s" begin="1.3s" fill="freeze"/>
+    </text>
+    <!-- Linha 3 -->
+    <text x="40" y="150" opacity="0">➤ Uso <tspan fill="#3B82F6">IA (Cursor AI)</tspan> para criar sistemas completos em prazos curtos.
+      <animate attributeName="opacity" from="0" to="1" dur="1s" begin="1.8s" fill="freeze"/>
+    </text>
+    <!-- Linha 4 -->
+    <text x="40" y="180" opacity="0">➤ Projeto de impacto: sistema QR Code que gerou <tspan fill="#22D3EE">+R$200 mil</tspan>.
+      <animate attributeName="opacity" from="0" to="1" dur="1s" begin="2.3s" fill="freeze"/>
+    </text>
+    <!-- Linha 5 -->
+    <text x="40" y="210" opacity="0">➤ Apoio ao <tspan fill="#38BDF8">CNJ</tspan>: gestão de processos e dashboards em Power BI.
+      <animate attributeName="opacity" from="0" to="1" dur="1s" begin="2.8s" fill="freeze"/>
+    </text>
+  </g>
+
+  <!-- Bolhas decorativas -->
+  <circle cx="100" cy="230" r="3" fill="#3B82F6" opacity="0.7">
+    <animate attributeName="cy" values="230;210;230" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="720" cy="230" r="2.5" fill="#48D1CC" opacity="0.6">
+    <animate attributeName="cy" values="230;200;230" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.2;0.9;0.2" dur="8s" repeatCount="indefinite"/>
+  </circle>
+</svg>
