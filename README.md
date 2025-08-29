@@ -1,6 +1,5 @@
 <img src="./header-new.svg" width="100%"/>
 
-**`Desenvolvedor BackEnd/FrontEnd`**
 
 <span style="color: rgba(200, 0, 0, 0.72);">➤</span>  Desenvolvedor em início de carreira focado em Java, SQL e desenvolvimento full stack.
 
