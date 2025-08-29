@@ -1,22 +1,38 @@
 <svg width="1200" height="220" viewBox="0 0 1200 220" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- ClipPath com cantos arredondados -->
-    <clipPath id="rounded">
-      <rect width="1200" height="220" rx="30" ry="30"/>
-    </clipPath>
+    <!-- Blur para a máscara (feather nas bordas) -->
+    <filter id="edgeFeather"><feGaussianBlur stdDeviation="22"/></filter>
 
-    <!-- Gradiente das ondas -->
-    <linearGradient id="gw" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0B132B"/>
-      <stop offset="50%" stop-color="#3B82F6"/>
-      <stop offset="100%" stop-color="#48D1CC"/>
+    <!-- MÁSCARA: centro branco (visível), bordas pretas com blur (somem) -->
+    <mask id="edgeFade" maskUnits="userSpaceOnUse">
+      <!-- Tudo visível por padrão -->
+      <rect width="1200" height="220" fill="white"/>
+      <!-- Stroke preto nas bordas (fica transparente na máscara), com blur pra “dissolver” -->
+      <g filter="url(#edgeFeather)">
+        <!-- Ajuste stroke-width para mais/menos dissolução (70–120) -->
+        <rect x="0" y="0" width="1200" height="220" rx="30" ry="30"
+              fill="none" stroke="black" stroke-width="100"/>
+      </g>
+    </mask>
+
+    <!-- Blur suave para a aurora -->
+    <filter id="auroraBlur"><feGaussianBlur stdDeviation="22"/></filter>
+
+    <!-- Gradientes da aurora -->
+    <linearGradient id="aurTeal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#48D1CC" stop-opacity="0.35"/>
+      <stop offset="60%" stop-color="#38BDF8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#48D1CC" stop-opacity="0.0"/>
+    </linearGradient>
+    <linearGradient id="aurBlue" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.28"/>
+      <stop offset="70%" stop-color="#60A5FA" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0.0"/>
     </linearGradient>
 
-    <!-- Máscara do typing -->
+    <!-- Máscara do typing (W=850; pausa 2s fim e 2s apagado) -->
     <mask id="typingMask">
       <rect x="80" y="70" width="0" height="80" fill="#fff">
-        <!-- width máxima = 850 -->
-        <!-- agora com pausa 2s no fim da escrita e 2s no fim da exclusão -->
         <animate attributeName="width"
                  values="0;850;850;0;0"
                  keyTimes="0;0.5;0.7;0.8;1"
@@ -26,52 +42,63 @@
     </mask>
   </defs>
 
-  <!-- Fundo -->
-  <rect width="1200" height="220" rx="30" ry="30" fill="#0B132B"/>
+  <!-- Fundo base (cor interna; as bordas vão dissolver pela máscara) -->
+  <rect width="1200" height="220" rx="30" ry="30" fill="#0B132B" mask="url(#edgeFade)"/>
 
-  <g clip-path="url(#rounded)">
-    <!-- Ondas animadas -->
-    <path fill="url(#gw)" opacity="0.35"
-          d="M0,150 C300,120 550,170 850,140 C1000,130 1120,150 1200,145 L1200,220 L0,220 Z">
-      <animate attributeName="d" dur="14s" repeatCount="indefinite"
-        values="
-        M0,150 C300,120 550,170 850,140 C1000,130 1120,150 1200,145 L1200,220 L0,220 Z;
-        M0,150 C300,160 550,135 850,165 C1000,155 1120,140 1200,160 L1200,220 L0,220 Z;
-        M0,150 C300,120 550,170 850,140 C1000,130 1120,150 1200,145 L1200,220 L0,220 Z"/>
-    </path>
+  <!-- Tudo dentro também sofre o fade das bordas -->
+  <g mask="url(#edgeFade)">
+    <!-- AURORA FLUIDA -->
+    <g filter="url(#auroraBlur)" opacity="0.85">
+      <path fill="url(#aurTeal)" opacity="0.45"
+            d="M-50,140 C200,90 400,160 600,120 C800,80 1000,130 1300,100 L1300,260 L-50,260 Z">
+        <animate attributeName="d" dur="18s" repeatCount="indefinite"
+          values="
+          M-50,140 C200,90 400,160 600,120 C800,80 1000,130 1300,100 L1300,260 L-50,260 Z;
+          M-50,130 C200,110 420,140 620,130 C820,100 1040,150 1300,120 L1300,260 L-50,260 Z;
+          M-50,150 C200,120 400,155 600,110 C800,90 990,140 1300,115 L1300,260 L-50,260 Z;
+          M-50,140 C200,90 400,160 600,120 C800,80 1000,130 1300,100 L1300,260 L-50,260 Z"/>
+      </path>
+      <path fill="url(#aurBlue)" opacity="0.35"
+            d="M-80,80 C180,60 380,90 580,75 C820,60 1020,90 1320,70 L1320,260 L-80,260 Z">
+        <animate attributeName="d" dur="20s" repeatCount="indefinite"
+          values="
+          M-80,80 C180,60 380,90 580,75 C820,60 1020,90 1320,70 L1320,260 L-80,260 Z;
+          M-80,95 C180,85 400,70 580,85 C820,90 1040,80 1320,95 L1320,260 L-80,260 Z;
+          M-80,70 C180,55 400,95 580,80 C820,65 1040,95 1320,75 L1320,260 L-80,260 Z;
+          M-80,80 C180,60 380,90 580,75 C820,60 1020,90 1320,70 L1320,260 L-80,260 Z"/>
+      </path>
+    </g>
 
-    <path fill="url(#gw)" opacity="0.55"
-          d="M0,165 C250,140 600,180 900,155 C1050,150 1120,160 1200,158 L1200,220 L0,220 Z">
-      <animate attributeName="d" dur="10s" repeatCount="indefinite"
-        values="
-        M0,165 C250,140 600,180 900,155 C1050,150 1120,160 1200,158 L1200,220 L0,220 Z;
-        M0,165 C250,170 600,150 900,170 C1050,165 1120,150 1200,175 L1200,220 L0,220 Z;
-        M0,165 C250,140 600,180 900,155 C1050,150 1120,160 1200,158 L1200,220 L0,220 Z"/>
-    </path>
+    <!-- BOLHAS (pontinhos ao vento) -->
+    <g>
+      <circle r="2" fill="#E6F9FF" opacity="0">
+        <animate attributeName="cx" from="-50" to="1250" dur="28s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="50;60;55;50" dur="10s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.9;0" keyTimes="0;0.5;1" dur="7s" repeatCount="indefinite"/>
+        <animate attributeName="r" values="1.6;2.3;1.6" dur="7s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="1.6" fill="#DFF7FF" opacity="0">
+        <animate attributeName="cx" from="-80" to="1220" dur="30s" repeatCount="indefinite" begin="2s"/>
+        <animate attributeName="cy" values="150;140;145;150" dur="11s" repeatCount="indefinite" begin="2s"/>
+        <animate attributeName="opacity" values="0;0.8;0" keyTimes="0;0.5;1" dur="8s" repeatCount="indefinite" begin="2s"/>
+        <animate attributeName="r" values="1.2;1.9;1.2" dur="8s" repeatCount="indefinite" begin="2s"/>
+      </circle>
+      <circle r="1.8" fill="#F0FBFF" opacity="0">
+        <animate attributeName="cx" from="-100" to="1240" dur="32s" repeatCount="indefinite" begin="4s"/>
+        <animate attributeName="cy" values="100;110;105;100" dur="9s" repeatCount="indefinite" begin="4s"/>
+        <animate attributeName="opacity" values="0;0.85;0" keyTimes="0;0.5;1" dur="6.5s" repeatCount="indefinite" begin="4s"/>
+        <animate attributeName="r" values="1.4;2.1;1.4" dur="6.5s" repeatCount="indefinite" begin="4s"/>
+      </circle>
+    </g>
 
-    <path fill="url(#gw)" opacity="0.9"
-          d="M0,180 C320,170 620,195 920,180 C1070,176 1140,186 1200,182 L1200,220 L0,220 Z">
-      <animate attributeName="d" dur="7s" repeatCount="indefinite"
-        values="
-        M0,180 C320,170 620,195 920,180 C1070,176 1140,186 1200,182 L1200,220 L0,220 Z;
-        M0,180 C320,190 620,170 920,195 C1070,190 1140,178 1200,198 L1200,220 L0,220 Z;
-        M0,180 C320,170 620,195 920,180 C1070,176 1140,186 1200,182 L1200,220 L0,220 Z"/>
-    </path>
-
-    <!-- Texto -->
-    <text x="80" y="120"
-          font-family="Consolas, Menlo, Monaco, 'Courier New', monospace"
-          font-size="34" fill="#94A3B8" opacity="0.35">
-      Julio Cesar - Desenvolvedor Backend/Frontend
-    </text>
-
+    <!-- TEXTO com typing (limpo, sem fundo por trás) -->
     <text x="80" y="120"
           font-family="Consolas, Menlo, Monaco, 'Courier New', monospace"
           font-size="34" fill="#F8FAFC" mask="url(#typingMask)">
       Julio Cesar - Desenvolvedor Backend/Frontend
     </text>
 
-    <!-- Cursor -->
+    <!-- CURSOR sincronizado (pausas 2s + 2s) -->
     <rect x="80" y="90" width="2" height="34" fill="#F8FAFC">
       <animate attributeName="x"
                values="80;930;930;80;80"
