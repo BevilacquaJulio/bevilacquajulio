@@ -1,100 +1,140 @@
+<!-- =========================
+  README Perfil - BevilacquaJulio
+  - Animações + estratégia
+  - Funciona bem no modo claro e escuro
+  - Banner com fallback + typing animado
+========================= -->
+
+<!-- 1) BANNER (DARK/LIGHT) - use 2 SVGs pra não ficar feio no modo claro -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./header-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./header-light.svg">
-  <img src="./header-dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg">
+  <img src="./banner-dark.svg" width="100%" alt="Banner Julio Cesar">
 </picture>
+
+<!-- 2) TYPING ANIMADO (funciona em dark e light) -->
+<p align="center">
+  <img
+    src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=26&duration=2800&pause=800&color=3A86FF&center=true&vCenter=true&width=980&lines=Julio+Cesar+-+Desenvolvedor+Full+Stack;Sistemas+Empresariais+com+Impacto+Real;Backend+%7C+APIs+REST+%7C+Arquitetura+MVC;Modelagem+de+Dados+%7C+Dashboards+%7C+Financeiro"
+    alt="Typing SVG"
+  />
+</p>
+
+<!-- 3) BADGES (curtos e objetivos) -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Full%20Stack-Sistemas%20Web-111827?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/APIs%20REST-PHP%20%7C%20Node-111827?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Banco%20de%20Dados-MySQL%20%7C%20PostgreSQL-111827?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Impacto-+R%24200%20mil-0f766e?style=for-the-badge" />
+</p>
 
 ---
 
 ## 🚀 Sobre mim
 
-Desenvolvedor Full Stack focado na construção de **sistemas empresariais completos**, com forte atuação em backend, modelagem de dados e arquitetura MVC.
+Desenvolvedor **Full Stack** focado na construção de **sistemas empresariais completos** (operações + financeiro + estoque), com forte atuação em **backend**, **modelagem de dados** e **arquitetura MVC**.
 
-Experiência prática em projetos com impacto financeiro real, incluindo plataforma de pagamentos com QR Code que movimentou **+R$200 mil em um único evento**.
+**Diferencial prático:** participei do desenvolvimento de um sistema de pagamentos com **QR Code** que movimentou **mais de R$200 mil em transações em um único evento**.
 
-Atuação em:
-
-- Desenvolvimento de sistemas operacionais e financeiros
-- APIs REST seguras e escaláveis
-- Modelagem e otimização de banco de dados
-- Dashboards com métricas e indicadores
-- Controle de estoque e rastreabilidade
-- Aplicação de IA para acelerar desenvolvimento
+- Backend estruturado (regras, permissões, auditoria)
+- APIs REST para operações críticas
+- Banco de dados (modelagem, integridade, performance)
+- Dashboards e indicadores para usuário leigo (produto/estoque/financeiro)
+- Uso de IA (Cursor AI e afins) para acelerar entregas sem perder consistência
 
 ---
 
 ## 🏗 Projetos de Impacto
 
-### 🔹 Festa Junina Tech
-Sistema completo para gestão de eventos com substituição de dinheiro físico por cartões com QR Code.
+### 🎟 Festa Junina Tech — Sistema para Festas Juninas (Set/2024 — Atual)
+Plataforma de gestão de evento com substituição de dinheiro físico por **cartões com QR Code**.
 
-- APIs REST em PHP
-- Validação de QR, controle de saldo e estornos
-- Auditoria completa de transações
-- +R$200 mil movimentados
+- APIs REST em **PHP** para vendas, saldo, validação de QR, estornos e fechamento
+- Modelagem e otimização de **MySQL (PDO)**
+- Interface **mobile-first** para operação em barracas
+- Controle de estoque com histórico e auditoria completa de transações
+- **+R$200 mil** em transações em um único evento
 
-Stack: PHP, MySQL, JavaScript, HTML5, CSS3
-
----
-
-### 🔹 Sistema G5 Blindagens
-Plataforma de gestão operacional e financeira para empresa de blindagem automotiva.
-
-- Controle de projetos e custos
-- Rastreamento de materiais
-- Dashboard financeiro
-- Arquitetura MVC
-
-Stack: PHP, MySQL/MariaDB, JavaScript
+**Stack:** PHP, MySQL, HTML5, CSS, JavaScript, HTML5-QRCode, FPDF
 
 ---
 
-### 🔹 Ultradesc Descartáveis
-Sistema administrativo completo para gestão hospitalar e faturamento.
+### 🚗 Sistema G5 — Gestão para Blindagem de Veículos
+Sistema completo para gestão **operacional, financeira e estoque** em empresa de blindagem automotiva.
 
-- CRUD com autenticação segura
-- Upload e categorização automática
-- Deploy seguro (.htaccess)
+- Módulo de projetos com custos, consumo de materiais e rastreabilidade
+- Dashboard com métricas (projetos, estoque, alertas e indicadores financeiros)
+- Financeiro integrado com controle de receitas/despesas e autenticação
+- APIs REST para consumo de dados e validações em tempo real
+- Arquitetura baseada em **MVC**
 
-Stack: PHP, MySQL, JavaScript
-
----
-
-## 🧠 Tecnologias Principais
-
-Backend:
-- PHP
-- Java
-- Node.js
-
-Frontend:
-- HTML5
-- CSS3
-- JavaScript
-
-Banco de Dados:
-- MySQL
-- PostgreSQL
-- MongoDB
-
-Ferramentas:
-- Git
-- VS Code
-- IntelliJ
-- Cursor AI
+**Stack:** PHP, MySQL/MariaDB, HTML5, CSS3, JavaScript
 
 ---
 
-## 📊 Estatísticas
+### 🏥 Ultradesc Descartáveis — Gestão hospitalar e faturamento
+Plataforma completa para gestão de produtos hospitalares e rotinas administrativas.
 
-<p>
-  <img 
-    height="180" 
-    src="https://github-readme-stats.vercel.app/api?username=BevilacquaJulio&show_icons=true&theme=default&include_all_commits=true&locale=pt-br" 
+- Landing page responsiva + área administrativa completa (CRUD)
+- Upload de imagens, controle de status e categorização
+- Deploy seguro em Hostinger com `.htaccess`
+- Modelagem e otimização de MySQL (PDO)
+
+**Stack:** PHP, MySQL, HTML5, CSS3, JavaScript (Vanilla), PDO
+
+---
+
+## 🧠 Linguagens e Tecnologias (visual limpo)
+
+<!-- Skill icons (fica bonito e rápido). Se quiser, troco pra dark/light separado -->
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=php,java,js,nodejs,html,css,mysql,postgres,mongodb,git&perline=10" alt="Skills" />
+</p>
+
+---
+
+## 🧩 Ferramentas e Métodos
+
+- **Metodologias:** Scrum, Kanban  
+- **Gestão:** Jira, ClickUp, Trello  
+- **Data/BI:** Excel, Power BI  
+- **IDE/Dev:** VS Code, IntelliJ IDEA, Git/GitHub  
+- **IA aplicada:** Cursor AI + modelos (Claude, GPT, Gemini, etc.)
+
+---
+
+## 📊 Estatísticas (sem quebrar no tema claro)
+
+<p align="center">
+  <img
+    height="180"
+    src="https://github-readme-stats.vercel.app/api?username=BevilacquaJulio&show_icons=true&include_all_commits=true&locale=pt-br&bg_color=00000000&hide_border=true"
+    alt="GitHub Stats"
   />
-  
-  <img 
-    height="180" 
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=BevilacquaJulio&layout=compact&langs_count=8&theme=default" 
+  <img
+    height="180"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=BevilacquaJulio&layout=compact&langs_count=8&bg_color=00000000&hide_border=true"
+    alt="Top Langs"
   />
 </p>
+
+---
+
+## 🔗 Contato
+<!-- Ajuste/adicione o que você quiser -->
+<p align="center">
+  <a href="https://www.linkedin.com/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Conectar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:SEUEMAILAQUI@EMAIL.COM">
+    <img src="https://img.shields.io/badge/Email-Contato-111827?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+</p>
+
+<!-- =========================
+  Observação importante:
+  1) Crie DOIS arquivos:
+     - banner-dark.svg (glow / fundo escuro)
+     - banner-light.svg (fundo claro / sem glow pesado)
+  2) Se você NÃO tiver os banners ainda, comente o <picture> e use só o typing.
+========================= -->
