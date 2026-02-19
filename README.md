@@ -89,22 +89,29 @@ Plataforma completa para gestão de produtos hospitalares e rotinas administrati
 
 ---
 
-## 📊 Estatísticas 
+## 📊 Estatísticas
 
 <p align="center">
   <img
     height="180"
-    src="https://github-readme-stats.vercel.app/api?username=BevilacquaJulio&show_icons=true&include_all_commits=true&locale=pt-br&bg_color=00000000&hide_border=true"
+    src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=BevilacquaJulio&show_icons=true&include_all_commits=true&locale=pt-br&hide_border=true&bg_color=00000000&cache_seconds=7200"
     alt="GitHub Stats"
   />
   <img
     height="180"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=BevilacquaJulio&layout=compact&langs_count=8&bg_color=00000000&hide_border=true"
+    src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=BevilacquaJulio&layout=compact&langs_count=8&hide_border=true&bg_color=00000000&cache_seconds=7200"
     alt="Top Langs"
   />
 </p>
 
----
+<p align="center">
+  <img
+    height="180"
+    src="https://streak-stats.demolab.com?user=BevilacquaJulio&hide_border=true&background=00000000"
+    alt="GitHub Streak"
+  />
+</p>
+
 
 ## 🔗 Contato
 
