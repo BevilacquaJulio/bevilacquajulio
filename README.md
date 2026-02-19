@@ -1,18 +1,4 @@
-<!-- =========================
-  README Perfil - BevilacquaJulio
-  - Animações + estratégia
-  - Funciona bem no modo claro e escuro
-  - Banner com fallback + typing animado
-========================= -->
 
-<!-- 1) BANNER (DARK/LIGHT) - use 2 SVGs pra não ficar feio no modo claro -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./banner-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg">
-  <img src="./banner-dark.svg" width="100%" alt="Banner Julio Cesar">
-</picture>
-
-<!-- 2) TYPING ANIMADO (funciona em dark e light) -->
 <p align="center">
   <img
     src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=26&duration=2800&pause=800&color=3A86FF&center=true&vCenter=true&width=980&lines=Julio+Cesar+-+Desenvolvedor+Full+Stack;Sistemas+Empresariais+com+Impacto+Real;Backend+%7C+APIs+REST+%7C+Arquitetura+MVC;Modelagem+de+Dados+%7C+Dashboards+%7C+Financeiro"
@@ -20,7 +6,7 @@
   />
 </p>
 
-<!-- 3) BADGES (curtos e objetivos) -->
+
 <p align="center">
   <img src="https://img.shields.io/badge/Full%20Stack-Sistemas%20Web-111827?style=for-the-badge" />
   <img src="https://img.shields.io/badge/APIs%20REST-PHP%20%7C%20Node-111827?style=for-the-badge" />
@@ -86,7 +72,7 @@ Plataforma completa para gestão de produtos hospitalares e rotinas administrati
 
 ## 🧠 Linguagens e Tecnologias (visual limpo)
 
-<!-- Skill icons (fica bonito e rápido). Se quiser, troco pra dark/light separado -->
+
 <p align="center">
   <img src="https://skillicons.dev/icons?i=php,java,js,nodejs,html,css,mysql,postgres,mongodb,git&perline=10" alt="Skills" />
 </p>
@@ -121,7 +107,7 @@ Plataforma completa para gestão de produtos hospitalares e rotinas administrati
 ---
 
 ## 🔗 Contato
-<!-- Ajuste/adicione o que você quiser -->
+
 <p align="center">
   <a href="https://www.linkedin.com/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-Conectar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
@@ -131,10 +117,3 @@ Plataforma completa para gestão de produtos hospitalares e rotinas administrati
   </a>
 </p>
 
-<!-- =========================
-  Observação importante:
-  1) Crie DOIS arquivos:
-     - banner-dark.svg (glow / fundo escuro)
-     - banner-light.svg (fundo claro / sem glow pesado)
-  2) Se você NÃO tiver os banners ainda, comente o <picture> e use só o typing.
-========================= -->
