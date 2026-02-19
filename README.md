@@ -89,7 +89,7 @@ Plataforma completa para gestão de produtos hospitalares e rotinas administrati
 
 ---
 
-## 📊 Estatísticas (sem quebrar no tema claro)
+## 📊 Estatísticas 
 
 <p align="center">
   <img
