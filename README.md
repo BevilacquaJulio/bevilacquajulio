@@ -99,10 +99,10 @@ Plataforma completa para gestão de produtos hospitalares e rotinas administrati
 ## 🔗 Contato
 
 <p align="center">
-  <a href="https://www.linkedin.com/" target="_blank">
+  <a href="https://www.linkedin.com/in/julio-bevi/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-Conectar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <a href="mailto:SEUEMAILAQUI@EMAIL.COM">
+  <a href="mailto:julio.bevi@outlook.com">
     <img src="https://img.shields.io/badge/Email-Contato-111827?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </p>
