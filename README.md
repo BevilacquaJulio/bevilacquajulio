@@ -11,7 +11,6 @@
 </picture>
 
 <h1 align="center">Stack Técnica</h1>
-
 <p align="center">
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="55"/>
