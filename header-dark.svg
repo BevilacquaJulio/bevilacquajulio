@@ -1,5 +1,12 @@
 <svg width="1200" height="220" viewBox="0 0 1200 220" xmlns="http://www.w3.org/2000/svg">
   <defs>
+    <!--
+      Ajuste rápido do typing/cursor:
+      TEXT_START_X = 80
+      TEXT_END_X   = 855
+      TYPE_WIDTH   = 775  (TEXT_END_X - TEXT_START_X)
+    -->
+
     <style>
       .fundo { fill: #0B132B; }
       .texto-typing { fill: #F8FAFC; }
@@ -24,16 +31,18 @@
       <stop offset="60%" stop-color="#38BDF8" stop-opacity="0.25"/>
       <stop offset="100%" stop-color="#48D1CC" stop-opacity="0.0"/>
     </linearGradient>
+
     <linearGradient id="aurBlue" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.28"/>
       <stop offset="70%" stop-color="#60A5FA" stop-opacity="0.22"/>
       <stop offset="100%" stop-color="#3B82F6" stop-opacity="0.0"/>
     </linearGradient>
 
+    <!-- typingMask: width até o final do texto -->
     <mask id="typingMask">
       <rect x="80" y="70" width="0" height="80" fill="#fff">
         <animate attributeName="width"
-                 values="0;805;805;0;0"
+                 values="0;775;775;0;0"
                  keyTimes="0;0.5;0.7;0.8;1"
                  dur="8s"
                  repeatCount="indefinite"/>
@@ -54,6 +63,7 @@
           M-50,150 C200,120 400,155 600,110 C800,90 990,140 1300,115 L1300,260 L-50,260 Z;
           M-50,140 C200,90 400,160 600,120 C800,80 1000,130 1300,100 L1300,260 L-50,260 Z"/>
       </path>
+
       <path fill="url(#aurBlue)" opacity="0.35"
             d="M-80,80 C180,60 380,90 580,75 C820,60 1020,90 1320,70 L1320,260 L-80,260 Z">
         <animate attributeName="d" dur="20s" repeatCount="indefinite"
@@ -72,12 +82,14 @@
         <animate attributeName="opacity" values="0;0.9;0" keyTimes="0;0.5;1" dur="7s" repeatCount="indefinite"/>
         <animate attributeName="r" values="1.6;2.3;1.6" dur="7s" repeatCount="indefinite"/>
       </circle>
+
       <circle class="bolha" r="1.6" opacity="0">
         <animate attributeName="cx" from="-80" to="1220" dur="30s" repeatCount="indefinite" begin="2s"/>
         <animate attributeName="cy" values="150;140;145;150" dur="11s" repeatCount="indefinite" begin="2s"/>
         <animate attributeName="opacity" values="0;0.8;0" keyTimes="0;0.5;1" dur="8s" repeatCount="indefinite" begin="2s"/>
         <animate attributeName="r" values="1.2;1.9;1.2" dur="8s" repeatCount="indefinite" begin="2s"/>
       </circle>
+
       <circle class="bolha" r="1.8" opacity="0">
         <animate attributeName="cx" from="-100" to="1240" dur="32s" repeatCount="indefinite" begin="4s"/>
         <animate attributeName="cy" values="100;110;105;100" dur="9s" repeatCount="indefinite" begin="4s"/>
@@ -92,9 +104,10 @@
       Julio Cesar - Desenvolvedor Full Stack
     </text>
 
+    <!-- Cursor: vai exatamente até TEXT_END_X -->
     <rect class="cursor" x="80" y="90" width="2" height="34">
       <animate attributeName="x"
-               values="80;835;835;80;80"
+               values="80;855;855;80;80"
                keyTimes="0;0.5;0.7;0.8;1"
                dur="8s"
                repeatCount="indefinite"/>
