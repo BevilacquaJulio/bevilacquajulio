@@ -1,115 +1,143 @@
+<img src="./header-new.svg" width="100%"/>
 
-<p align="center">
-  <img
-    src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=26&duration=2800&pause=800&color=3A86FF&center=true&vCenter=true&width=980&lines=Julio+Cesar+-+Desenvolvedor+Full+Stack;Sistemas+Empresariais+com+Impacto+Real;Backend+%7C+APIs+REST+%7C+Arquitetura+MVC;Modelagem+de+Dados+%7C+Dashboards+%7C+Financeiro"
-    alt="Typing SVG"
+<img src="./sobre-mim.svg"/>
+
+---
+
+### 🤖 Linguagens e Tecnologias
+
+<img 
+    align="left" 
+    alt="HTML"
+    title="HTML" 
+    width="30px" 
+    style="padding-right: 10px;" 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" 
+/>
+<img 
+    align="left" 
+    alt="CSS" 
+    title="CSS"
+    width="30px" 
+    style="padding-right: 10px;" 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" 
+/>
+<img 
+    align="left" 
+    alt="JavaScript" 
+    title="JavaScript"
+    width="30px" 
+    style="padding-right: 10px;" 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" 
+/>
+<img 
+    align="left" 
+    alt="TypeScript"
+    title="TypeScript" 
+    width="30px" 
+    style="padding-right: 10px;" 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" 
+/>
+<img 
+    align="left" 
+    alt="React"
+    title="React" 
+    width="30px" 
+    style="padding-right: 10px;" 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" 
+/>
+<img 
+    align="left" 
+    alt="Next.js" 
+    title="Next.js"
+    width="30px" 
+    style="padding-right: 10px;" 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" 
+/>
+<img 
+    align="left" 
+    alt="Bootstrap"
+    title="Bootstrap" 
+    width="30px" 
+    style="padding-right: 10px;" 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" 
+/>
+<img 
+    align="left" 
+    alt="Tailwind" 
+    title="Tailwind"
+    width="30px" 
+    style="padding-right: 10px;" 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" 
+/>
+<img 
+    align="left" 
+    alt="SASS" 
+    title="SASS"
+    width="30px" 
+    style="padding-right: 10px;" 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg" 
+/>
+<img 
+    align="left" 
+    alt="PHP" 
+    title="PHP"
+    width="30px" 
+    style="padding-right: 10px;" 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" 
+/>
+<img 
+    align="left" 
+    alt="Laravel" 
+    title="Laravel"
+    width="30px" 
+    style="padding-right: 10px;" 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" 
+/>
+<img 
+    align="left" 
+    alt="JQuery" 
+    title="JQuery"
+    width="30px" 
+    style="padding-right: 10px;" 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jquery/jquery-original.svg" 
+/>
+<img 
+    align="left" 
+    alt="Git" 
+    title="Git"
+    width="30px" 
+    style="padding-right: 10px;" 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" 
+/>
+<img 
+    align="left" 
+    alt="Python" 
+    title="Python"
+    width="30px" 
+    style="padding-right: 10px;" 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" 
+/>
+
+<br/>
+<br/>
+
+### 📊 Estatísticas
+
+<p>
+  <img 
+    align="left" 
+    alt="GitHub Stats" 
+    height="200" 
+    style="padding-right: 10px;" 
+    src="https://github-readme-stats.vercel.app/api?username=BevilacquaJulio&show_icons=true&theme=tokyonight&include_all_commits=true&locale=pt-br" 
   />
+
+<img 
+      align="left" 
+      alt="GitHub Stats" 
+      height="200" 
+      src="https://github-readme-stats.vercel.app/api/top-langs/?username=BevilacquaJulio&theme=tokyonight&layout=compact&custom_title=Tecnologias&langs_count=9" 
+  />
+
 </p>
-
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Full%20Stack-Sistemas%20Web-111827?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/APIs%20REST-PHP%20%7C%20Node-111827?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Banco%20de%20Dados-MySQL%20%7C%20PostgreSQL-111827?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Impacto-+R%24200%20mil-0f766e?style=for-the-badge" />
-</p>
-
----
-
-## 🚀 Sobre mim
-
-Desenvolvedor **Full Stack** focado na construção de **sistemas empresariais completos** (operações + financeiro + estoque), com forte atuação em **backend**, **modelagem de dados** e **arquitetura MVC**.
-
-**Diferencial prático:** participei do desenvolvimento de um sistema de pagamentos com **QR Code** que movimentou **mais de R$200 mil em transações em um único evento**.
-
-- Backend estruturado (regras, permissões, auditoria)
-- APIs REST para operações críticas
-- Banco de dados (modelagem, integridade, performance)
-- Dashboards e indicadores para usuário leigo (produto/estoque/financeiro)
-- Uso de IA (Cursor AI e afins) para acelerar entregas sem perder consistência
-
----
-
-## 🏗 Projetos de Impacto
-
-### 🎟 Festa Junina Tech — Sistema para Festas Juninas (Set/2024 — Atual)
-Plataforma de gestão de evento com substituição de dinheiro físico por **cartões com QR Code**.
-
-- APIs REST em **PHP** para vendas, saldo, validação de QR, estornos e fechamento
-- Modelagem e otimização de **MySQL (PDO)**
-- Interface **mobile-first** para operação em barracas
-- Controle de estoque com histórico e auditoria completa de transações
-- **+R$200 mil** em transações em um único evento
-
-**Stack:** PHP, MySQL, HTML5, CSS, JavaScript, HTML5-QRCode, FPDF
-
----
-
-### 🚗 Sistema G5 — Gestão para Blindagem de Veículos
-Sistema completo para gestão **operacional, financeira e estoque** em empresa de blindagem automotiva.
-
-- Módulo de projetos com custos, consumo de materiais e rastreabilidade
-- Dashboard com métricas (projetos, estoque, alertas e indicadores financeiros)
-- Financeiro integrado com controle de receitas/despesas e autenticação
-- APIs REST para consumo de dados e validações em tempo real
-- Arquitetura baseada em **MVC**
-
-**Stack:** PHP, MySQL/MariaDB, HTML5, CSS3, JavaScript
-
----
-
-### 🏥 Ultradesc Descartáveis — Gestão hospitalar e faturamento
-Plataforma completa para gestão de produtos hospitalares e rotinas administrativas.
-
-- Landing page responsiva + área administrativa completa (CRUD)
-- Upload de imagens, controle de status e categorização
-- Deploy seguro em Hostinger com `.htaccess`
-- Modelagem e otimização de MySQL (PDO)
-
-**Stack:** PHP, MySQL, HTML5, CSS3, JavaScript (Vanilla), PDO
-
----
-
-## 🧠 Linguagens e Tecnologias (visual limpo)
-
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=php,java,js,nodejs,html,css,mysql,postgres,mongodb,git&perline=10" alt="Skills" />
-</p>
-
----
-
-## 🧩 Ferramentas e Métodos
-
-- **Metodologias:** Scrum, Kanban  
-- **Gestão:** Jira, ClickUp, Trello  
-- **Data/BI:** Excel, Power BI  
-- **IDE/Dev:** VS Code, IntelliJ IDEA, Git/GitHub  
-- **IA aplicada:** Cursor AI + modelos (Claude, GPT, Gemini, etc.)
-
----
-
-## 📊 Estatísticas
-
-<p align="center">
-  <img src="./github-metrics.svg" alt="GitHub Metrics" width="900" />
-</p>
-
-
-## 🔗 Contato
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/SEU_LINK_AQUI">
-    <img width="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" />
-  </a>
-  &nbsp;&nbsp;&nbsp;
-  <a href="mailto:SEU_EMAIL_AQUI">
-    <img width="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" />
-  </a>
-  &nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/BevilacquaJulio">
-    <img width="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-  </a>
-</p>
-
-
