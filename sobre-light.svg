@@ -1,0 +1,52 @@
+<svg width="800" height="260" viewBox="0 0 800 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .texto-principal { fill: #0F172A; } /* escuro para contrastar no fundo branco */
+      .destaque-1 { fill: #0284C7; }      /* azul mais escuro */
+      .destaque-2 { fill: #0F766E; }      /* teal escuro */
+      .destaque-3 { fill: #1D4ED8; }      /* azul forte */
+      .destaque-4 { fill: #0891B2; }      /* ciano escuro */
+    </style>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="1.6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <g class="texto-principal" font-family="Consolas, Menlo, Monaco, 'Courier New', monospace" font-size="16" text-anchor="middle">
+    <text x="50%" y="90" opacity="0">
+      ➤ Focado em desenvolvimento <tspan class="destaque-1">Java</tspan>,
+      <tspan class="destaque-1">HTML, CSS, JavaScript e SQL</tspan>.
+      <animate attributeName="opacity" from="0" to="1" dur="1s" begin="0.8s" fill="freeze"/>
+    </text>
+
+    <text x="50%" y="120" opacity="0">
+      ➤ Experiência em <tspan class="destaque-2">backend</tspan>, <tspan class="destaque-2">frontend</tspan>, BD e deploy em nuvem.
+      <animate attributeName="opacity" from="0" to="1" dur="1s" begin="1.3s" fill="freeze"/>
+    </text>
+
+    <text x="50%" y="150" opacity="0">
+      ➤ Uso <tspan class="destaque-3">IA (Cursor AI)</tspan> para criar sistemas completos em prazos curtos.
+      <animate attributeName="opacity" from="0" to="1" dur="1s" begin="1.8s" fill="freeze"/>
+    </text>
+
+    <text x="50%" y="180" opacity="0">
+      ➤ Projeto de impacto: Sistema de consumo com QR Code que gerou <tspan class="destaque-4">+R$200 mil</tspan>.
+      <animate attributeName="opacity" from="0" to="1" dur="1s" begin="2.3s" fill="freeze"/>
+    </text>
+  </g>
+
+  <circle cx="100" cy="230" r="3" fill="#1D4ED8" opacity="0.35">
+    <animate attributeName="cy" values="230;210;230" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.15;0.5;0.15" dur="6s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="720" cy="230" r="2.5" fill="#0F766E" opacity="0.28">
+    <animate attributeName="cy" values="230;200;230" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.10;0.45;0.10" dur="8s" repeatCount="indefinite"/>
+  </circle>
+</svg>
