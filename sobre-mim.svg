@@ -1,5 +1,23 @@
 <svg width="800" height="260" viewBox="0 0 800 260" xmlns="http://www.w3.org/2000/svg">
   <defs>
+    <style>
+      /* Tema Escuro (Cores Originais) */
+      .texto-principal { fill: #F8FAFC; transition: fill 0.4s ease; }
+      .destaque-1 { fill: #38BDF8; transition: fill 0.4s ease; } /* Azul claro */
+      .destaque-2 { fill: #48D1CC; transition: fill 0.4s ease; } /* Verde-água / Teal */
+      .destaque-3 { fill: #3B82F6; transition: fill 0.4s ease; } /* Azul médio */
+      .destaque-4 { fill: #22D3EE; transition: fill 0.4s ease; } /* Ciano */
+
+      /* Tema Claro (Light Mode do GitHub) */
+      @media (prefers-color-scheme: light) {
+        .texto-principal { fill: #0F172A; } /* Texto principal bem escuro */
+        .destaque-1 { fill: #0284C7; } /* Azul escurecido para dar contraste */
+        .destaque-2 { fill: #0F766E; } /* Verde-água escurecido */
+        .destaque-3 { fill: #1D4ED8; } /* Azul forte */
+        .destaque-4 { fill: #0891B2; } /* Ciano escurecido */
+      }
+    </style>
+
     <linearGradient id="gradTitle" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#3B82F6"/>
       <stop offset="100%" stop-color="#48D1CC"/>
@@ -13,32 +31,26 @@
     </filter>
   </defs>
 
-  <!-- Conteúdo centralizado -->
-  <g font-family="Consolas, monospace" font-size="16" fill="#F8FAFC" text-anchor="middle">
-    <!-- Linha 1 -->
+  <g class="texto-principal" font-family="Consolas, monospace" font-size="16" text-anchor="middle">
     <text x="50%" y="90" opacity="0">
-      ➤ Focado em desenvolvimento <tspan fill="#38BDF8">Java</tspan>, 
-      <tspan fill="#38BDF8">HTML, CSS, JavaScript e SQL</tspan>.
+      ➤ Focado em desenvolvimento <tspan class="destaque-1">Java</tspan>, 
+      <tspan class="destaque-1">HTML, CSS, JavaScript e SQL</tspan>.
       <animate attributeName="opacity" from="0" to="1" dur="1s" begin="0.8s" fill="freeze"/>
     </text>
-    <!-- Linha 2 -->
     <text x="50%" y="120" opacity="0">
-      ➤ Experiência em <tspan fill="#48D1CC">backend</tspan>, <tspan fill="#48D1CC">frontend</tspan>, BD e deploy em nuvem.
+      ➤ Experiência em <tspan class="destaque-2">backend</tspan>, <tspan class="destaque-2">frontend</tspan>, BD e deploy em nuvem.
       <animate attributeName="opacity" from="0" to="1" dur="1s" begin="1.3s" fill="freeze"/>
     </text>
-    <!-- Linha 3 -->
     <text x="50%" y="150" opacity="0">
-      ➤ Uso <tspan fill="#3B82F6">IA (Cursor AI)</tspan> para criar sistemas completos em prazos curtos.
+      ➤ Uso <tspan class="destaque-3">IA (Cursor AI)</tspan> para criar sistemas completos em prazos curtos.
       <animate attributeName="opacity" from="0" to="1" dur="1s" begin="1.8s" fill="freeze"/>
     </text>
-    <!-- Linha 4 -->
     <text x="50%" y="180" opacity="0">
-      ➤ Projeto de impacto: Sistema consumo de cartão com QR Code que gerou <tspan fill="#22D3EE">+R$200 mil</tspan>.
+      ➤ Projeto de impacto: Sistema consumo de cartão com QR Code que gerou <tspan class="destaque-4">+R$200 mil</tspan>.
       <animate attributeName="opacity" from="0" to="1" dur="1s" begin="2.3s" fill="freeze"/>
     </text>
   </g>
 
-  <!-- Bolhas decorativas -->
   <circle cx="100" cy="230" r="3" fill="#3B82F6" opacity="0.7">
     <animate attributeName="cy" values="230;210;230" dur="6s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0.3;1;0.3" dur="6s" repeatCount="indefinite"/>
