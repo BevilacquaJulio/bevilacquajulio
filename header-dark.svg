@@ -42,7 +42,7 @@
     <mask id="typingMask">
       <rect x="80" y="70" width="0" height="80" fill="#fff">
         <animate attributeName="width"
-                 values="0;775;775;0;0"
+                 values="0;750;750;0;0"
                  keyTimes="0;0.5;0.7;0.8;1"
                  dur="8s"
                  repeatCount="indefinite"/>
@@ -101,13 +101,13 @@
     <text class="texto-typing" x="80" y="120"
           font-family="Consolas, Menlo, Monaco, 'Courier New', monospace"
           font-size="34" mask="url(#typingMask)">
-      Julio Cesar - Desenvolvedor Full Stack
+      Julio Cesar | Desenvolvedor Full-Stack
     </text>
 
     <!-- Cursor: vai exatamente até TEXT_END_X -->
     <rect class="cursor" x="80" y="90" width="2" height="34">
       <animate attributeName="x"
-               values="80;855;855;80;80"
+               values="80;820;820;80;80"
                keyTimes="0;0.5;0.7;0.8;1"
                dur="8s"
                repeatCount="indefinite"/>
