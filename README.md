@@ -10,7 +10,6 @@
   <img src="./sobre-dark.svg" width="100%" alt="Sobre mim" />
 </picture>
 
----
 
 <h1 align="center">Stack Técnica</h1>
 
