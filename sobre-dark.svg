@@ -20,7 +20,7 @@
   <g class="texto-principal" font-family="Consolas, Menlo, Monaco, 'Courier New', monospace" font-size="16" text-anchor="middle">
     <text x="50%" y="90" opacity="0">
       ➤ Focado em desenvolvimento <tspan class="destaque-1">Java</tspan>,
-      <tspan class="destaque-1">HTML, CSS, JavaScript e SQL</tspan>.
+      <tspan class="destaque-1">, PHP, HTML, CSS, JavaScript e SQL</tspan>.
       <animate attributeName="opacity" from="0" to="1" dur="1s" begin="0.8s" fill="freeze"/>
     </text>
 
