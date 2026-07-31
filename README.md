@@ -101,7 +101,7 @@ sem subir infraestrutura.
 
 <td width="50%" valign="top">
 
-### 🏭 [Atlas Stock](https://github.com/BevilacquaJulio/atlas_stock)
+### [Atlas Stock](https://github.com/BevilacquaJulio/atlas_stock)
 
 ERP para empresas de **blindagem automotiva**. Centraliza compras, estoque,
 projetos por veículo, consumo de materiais e movimentações financeiras.
@@ -114,7 +114,7 @@ exclusão lógica e checklist de status por projeto.
 </td>
 <td width="50%" valign="top">
 
-### 📋 [Change Tracker](https://github.com/BevilacquaJulio/change_tracker)
+### [Change Tracker](https://github.com/BevilacquaJulio/change_tracker)
 
 Rastreamento de **itens de mudança** em projetos web — bugs, melhorias e
 implementações — com evidências visuais, auditoria e colaboração multiprojeto.
@@ -130,7 +130,7 @@ interface idênticos. Zero regressão visual.
 
 <td width="50%" valign="top">
 
-### 🌐 [Bevilabs Portfólio](https://github.com/BevilacquaJulio/bevilabs_portfolio)
+### [Bevilabs Portfólio](https://github.com/BevilacquaJulio/bevilabs_portfolio)
 
 Portfólio construído como **sistema real de ponta a ponta**, não como página
 estática: API própria, banco e painel de administração.
@@ -143,7 +143,7 @@ compartilhando instância MySQL.
 </td>
 <td width="50%" valign="top">
 
-### 💰 [Financeiro](https://github.com/BevilacquaJulio/financeiro)
+### [Financeiro](https://github.com/BevilacquaJulio/financeiro)
 
 Controle financeiro pessoal com categorização de lançamentos, relatórios e
 fechamento por período.
@@ -159,7 +159,7 @@ compartilhado da infraestrutura.
 
 <td width="50%" valign="top">
 
-### 🧾 [Controle de Pagamento](https://github.com/BevilacquaJulio/controle_pagamento)
+### [Controle de Pagamento](https://github.com/BevilacquaJulio/controle_pagamento)
 
 Gestão de pedidos com controle de pagamento, status de preparo e entrega.
 Agrupamento por atendente, filtros em tempo real e importação/exportação CSV.
@@ -172,7 +172,7 @@ com a marcação reproduzida classe por classe.
 </td>
 <td width="50%" valign="top">
 
-### 🏎️ [Motor Racing](https://github.com/BevilacquaJulio/Formula1)
+### [Motor Racing](https://github.com/BevilacquaJulio/Formula1)
 
 Site institucional para profissional de automobilismo, com **animação
 cinematográfica de abertura controlada por scroll** — frame-scrubbing em
@@ -189,7 +189,7 @@ comportamento visual original.
 
 <td width="50%" valign="top">
 
-### 🏥 [Ultradesc Descartáveis](https://github.com/BevilacquaJulio/Ultradesc)
+### [Ultradesc Descartáveis](https://github.com/BevilacquaJulio/Ultradesc)
 
 **Cliente real, em produção desde 2025.** Empresa de descartáveis hospitalares
 que não tinha nenhuma presença digital — vendia só por WhatsApp e indicação.
@@ -203,7 +203,7 @@ WhatsApp comercial.
 </td>
 <td width="50%" valign="top">
 
-### 📚 [Sistema de Catequistas](https://github.com/BevilacquaJulio/Gerenciamento_turmas)
+### [Sistema de Catequistas](https://github.com/BevilacquaJulio/Gerenciamento_turmas)
 
 Organização de turmas de catequese: participantes, encontros, lista de presença
 assíncrona e permissões granulares por perfil.
