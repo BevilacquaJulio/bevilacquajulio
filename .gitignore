@@ -1,0 +1,12 @@
+# Artefatos de sistema
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Arquivos temporarios de mount FUSE (aparecem ao editar via WSL / pastas de rede)
+.fuse_hidden*
+
+# Editores
+.vscode/
+.idea/
+*.swp

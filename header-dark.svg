@@ -34,9 +34,9 @@
     </linearGradient>
 
     
-    <mask id="typingMask">
-  <rect x="50%" y="70" width="0" height="80" fill="#fff"
-        transform="translate(-375,0)">
+    <mask id="typingMask" maskUnits="userSpaceOnUse"
+          x="0" y="0" width="1200" height="220">
+  <rect x="225" y="70" width="750" height="80" fill="#fff">
     <animate attributeName="width"
              values="0;750;750;0;0"
              keyTimes="0;0.5;0.7;0.8;1"
@@ -95,7 +95,7 @@
     </g>
 
     <text class="texto-typing"
-      x="50%" y="120"
+      x="600" y="120"
       text-anchor="middle"
       font-family="Consolas, Menlo, Monaco, 'Courier New', monospace"
       font-size="34"
@@ -104,15 +104,11 @@
 </text>
     
 <rect class="cursor"
-      x="50%"
+      x="600"
       y="90"
       width="2"
       height="34"
-      transform="translate(-375,0)">
-  <animate attributeName="x"
-           values="50%;50%;50%;50%;50%"
-           dur="0.001s"
-           repeatCount="indefinite"/>
+      transform="translate(375,0)">
   <animateTransform attributeName="transform"
                     type="translate"
                     values="-375,0;375,0;375,0;-375,0;-375,0"

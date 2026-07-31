@@ -1,0 +1,12 @@
+# Normaliza line endings: LF no repositorio, sempre.
+# Sem isso o Git no Windows marca todos os arquivos como modificados (CRLF)
+# e cria diffs fantasma que conflitam com o commit diario do bot de metricas.
+* text=auto eol=lf
+
+*.md   text eol=lf
+*.svg  text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+
+# O SVG gerado pela action nao deve poluir o diff de code review
+github-metrics.svg linguist-generated=true
