@@ -7,7 +7,7 @@
 <div align="center">
 
 [![Portfólio](https://img.shields.io/badge/Portf%C3%B3lio-bevilabs.com.br-38BDF8?style=for-the-badge&logo=googlechrome&logoColor=white)](https://bevilabs.com.br)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Conectar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/juliobevilacqua)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Conectar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/julio-bevi)
 [![E-mail](https://img.shields.io/badge/E--mail-juliobevi1@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:juliobevi1@gmail.com)
 
 </div>
@@ -193,7 +193,7 @@ reescrever do zero, e foi ela que definiu a arquitetura que uso hoje.
 ### Vamos conversar
 
 [![Portfólio](https://img.shields.io/badge/bevilabs.com.br-38BDF8?style=for-the-badge&logo=googlechrome&logoColor=white)](https://bevilabs.com.br)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/juliobevilacqua)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/julio-bevi)
 [![E-mail](https://img.shields.io/badge/juliobevi1@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:juliobevi1@gmail.com)
 
 </div>
