@@ -119,8 +119,8 @@ exclusão lógica e checklist de status por projeto.
 Rastreamento de **itens de mudança** em projetos web — bugs, melhorias e
 implementações — com evidências visuais, auditoria e colaboração multiprojeto.
 
-**Reescrito de FastAPI + vanilla para NestJS + React** mantendo banco, regras
-de negócio e interface idênticos. Zero regressão visual.
+Reescrito na **v2.0** para NestJS + React mantendo banco, regras de negócio e
+interface idênticos. Zero regressão visual.
 
 `NestJS 11` `React 19` `Prisma 7` `Vitest` `Docker`
 
@@ -155,26 +155,83 @@ compartilhado da infraestrutura.
 
 </td>
 </tr>
+<tr>
+
+<td width="50%" valign="top">
+
+### 🧾 [Controle de Pagamento](https://github.com/BevilacquaJulio/controle_pagamento)
+
+Gestão de pedidos com controle de pagamento, status de preparo e entrega.
+Agrupamento por atendente, filtros em tempo real e importação/exportação CSV.
+
+Reescrito na **v2.0** para NestJS + React preservando o CSS original intacto,
+com a marcação reproduzida classe por classe.
+
+`NestJS 11` `React 19` `Prisma 7` `Vitest` `Docker`
+
+</td>
+<td width="50%" valign="top">
+
+### 🏎️ [Motor Racing](https://github.com/BevilacquaJulio/Formula1)
+
+Site institucional para profissional de automobilismo, com **animação
+cinematográfica de abertura controlada por scroll** — frame-scrubbing em
+`<canvas>`, no estilo das páginas de produto da Apple.
+
+Migrado de vanilla para uma arquitetura React idiomática mantendo 100% do
+comportamento visual original.
+
+`React` `Vite` `TypeScript` `Canvas API` `Docker`
+
+</td>
+</tr>
+<tr>
+
+<td width="50%" valign="top">
+
+### 🏥 [Ultradesc Descartáveis](https://github.com/BevilacquaJulio/Ultradesc)
+
+**Cliente real, em produção desde 2025.** Empresa de descartáveis hospitalares
+que não tinha nenhuma presença digital — vendia só por WhatsApp e indicação.
+
+Landing page institucional + painel administrativo onde o próprio dono gerencia
+produtos, estoque e faturamento mensal. Cada produto converte direto para o
+WhatsApp comercial.
+
+`PHP 8` `MySQL (PDO)` `JavaScript` `Hostinger`
+
+</td>
+<td width="50%" valign="top">
+
+### 📚 [Sistema de Catequistas](https://github.com/BevilacquaJulio/Gerenciamento_turmas)
+
+Organização de turmas de catequese: participantes, encontros, lista de presença
+assíncrona e permissões granulares por perfil.
+
+Painel com indicadores agregados, importação/exportação CSV e geração de PDF
+para as listas de presença.
+
+`PHP 8` `MySQL (PDO)` `JavaScript` `Font Awesome`
+
+</td>
+</tr>
 </table>
-
-<div align="center">
-
-[![Controle de Pedidos](https://img.shields.io/badge/+_Controle_de_Pedidos-NestJS_·_React-1F2937?style=flat-square&logo=github&logoColor=white)](https://github.com/BevilacquaJulio/controle_pagamento)
-[![Motor Racing](https://img.shields.io/badge/+_Motor_Racing-React_·_Canvas_scrubbing-1F2937?style=flat-square&logo=github&logoColor=white)](https://github.com/BevilacquaJulio/Formula1)
-
-</div>
 
 ---
 
-## De onde eu venho
+## Como eu trabalho
 
-Comecei em **Python/FastAPI** e **PHP**, com frontends em HTML/CSS/JS puro. Ao longo de 2026
-migrei essa base para **NestJS + React/Vite + Prisma**, um sistema por vez, com um requisito
-inegociável: *nenhuma mudança de comportamento visível para o usuário*.
+Meu foco é **Node + React**: NestJS e Prisma no backend, React com Vite no frontend,
+TypeScript ponta a ponta. É a stack dos meus sistemas em produção e é onde continuo
+aprofundando.
 
-Em vários casos o CSS original foi movido intacto e a marcação reproduzida classe por classe —
-migrar stack sem quebrar a experiência de quem usa é uma restrição bem mais dura do que
-reescrever do zero, e foi ela que definiu a arquitetura que uso hoje.
+Comecei em PHP, entregando sistema para cliente real. Ao longo de 2026 reescrevi essa base
+em **NestJS + React**, um sistema por vez, com um requisito inegociável: *nenhuma mudança
+de comportamento visível para o usuário*.
+
+Em vários casos o CSS original foi movido intacto e a marcação reproduzida classe por classe.
+Trocar a stack inteira sem quebrar a experiência de quem usa é uma restrição bem mais dura
+do que reescrever do zero — e foi ela que definiu a arquitetura que uso hoje.
 
 ---
 

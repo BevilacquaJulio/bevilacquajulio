@@ -63,8 +63,8 @@
                         dur="3.6s" begin="0s" fill="freeze"/>
       <text x="82" y="114">
         <tspan class="marcador">&#9656;</tspan>
-        <tspan class="d2" dx="12">6 sistemas em produ&#231;&#227;o</tspan>
-        <tspan dx="8">com arquitetura, deploy e conven&#231;&#245;es padronizados.</tspan>
+        <tspan class="d2" dx="12">6 sistemas Node em produ&#231;&#227;o</tspan>
+        <tspan dx="8">com arquitetura e deploy padronizados.</tspan>
       </text>
     </g>
 
@@ -76,8 +76,8 @@
                         dur="3.6s" begin="0s" fill="freeze"/>
       <text x="82" y="156">
         <tspan class="marcador">&#9656;</tspan>
-        <tspan dx="12">Migrei</tspan>
-        <tspan class="d3" dx="8">4 sistemas de FastAPI/PHP para NestJS + React</tspan>
+        <tspan dx="12">Reescrevi</tspan>
+        <tspan class="d3" dx="8">4 sistemas legados em NestJS + React</tspan>
         <tspan dx="8">sem regress&#227;o visual.</tspan>
       </text>
     </g>
